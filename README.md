@@ -49,8 +49,5 @@ The following shows the results of each out the sampling methods we tested on th
   
   ![Screen Shot 2022-07-17 at 9 41 00 PM](https://user-images.githubusercontent.com/100643755/179446340-146155b0-4c47-42a8-86f2-928087c9c685.png)
 
-
-  
-
-
 # Summary
+After reviewing the results of the six models we tested, we determined that the Easy Ensemble ADABoost Classifier producted the best results, with the highest balanced accuracy score (93.16%) and recovery score (92%) when predicting High Risk. The very low precision score (9%) is worrysome, however, when it comes to financial lending decisions, it is better for the model to classify some Low Risk applicants as High risk than it would be for it to classify High Risk applicant as Low Risk. The high recovery score indicates that nearly all of the High Risk applicants are correctly identified, and a financial institution may be willing to reject a small number of Low Risk applicants to ensure it is protected from bad investments.
